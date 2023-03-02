@@ -1,0 +1,260 @@
+body {
+
+             background: #BFDBF7;
+
+             color: #1F7A8C;
+
+             font-family: 'IBM Plex Sans', sans-serif;
+
+             font-size: 18px;
+
+}
+
+ 
+
+ 
+
+h1 {
+
+             font-family: 'Roboto', sans-serif;
+
+             color: #1F7A8C;
+
+             font-size: 32px;
+
+}
+
+ 
+
+h2 {
+
+       font-family: 'Noto Serif', serif;
+
+       color: #1F7A8C;
+
+       font-size: 14px;
+
+       padding-top: 15px;
+
+}
+
+ 
+
+p {
+
+       font-family: 'Roboto', sans-serif;
+
+       font-size: 18px;
+
+}
+
+ 
+
+img {
+
+       width: 160px;
+
+       height: 160px;
+
+       border-radius: 50%;
+
+       box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+ 
+
+.titre {
+
+       font-family: 'Noto Serif', serif;
+
+       font-size: 22px;
+
+       color: #1F7A8C;
+
+       background-color: white;
+
+       padding: 2px 30px 2px 30px;
+
+       border-radius: 8px;
+
+}
+
+ 
+
+.btn-brown {
+
+       text-decoration: none;
+
+       background-color: #1F7A8C;
+
+       color : white;
+
+       padding: 8px 10px;
+
+       border-radius: 8px;
+
+       font-size: 16px;
+
+}
+
+.btn-brown:hover {
+
+       background-color: white;
+
+       color: #022B3A;
+
+}
+
+ 
+
+ 
+
+.container   {
+
+       width: 600px;
+
+       margin: 40px auto; 
+
+}
+
+
+@media (max-width: 960px) {
+
+  .container {
+
+    width: 700px;
+
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  .container {
+
+    width: 500px;
+
+  }
+
+}
+
+@media (max-width: 540px) {
+
+  .container {
+
+    width: 300px;
+
+  }
+
+}
+
+ 
+
+.card-white  {
+
+       background-color: #E1E5F2;
+
+       padding: 40px;
+
+       border-radius: 4px;
+
+       text-align: center;
+
+       box-shadow: 10px 10px 25px #826D62;
+
+       margin-bottom: 40px;
+
+}
+
+ 
+
+span.gras {
+
+             color: white;
+
+             background-color: #022B3A;
+
+             padding: 1px 10px;
+
+             border-radius: 5px;
+
+}
+
+ 
+
+#Gastronomy  {
+
+       background-image: url(image/resto1.jpg);
+
+       background-size: cover;
+
+       background-position: center;
+
+}
+
+ 
+
+#Travel      {
+
+       background-image: url(image/voyage1.jpg);
+
+       background-size: cover;
+
+       background-position: center;
+
+}
+
+ 
+
+#Marketing   {
+
+       background-image: url(image/peninsula.jpg);
+
+       background-size: cover;
+
+       background-position: center;
+
+}
+
+ 
+
+#End {
+
+       background-color: #E1E5F2;
+
+       padding: 12px;
+
+       border-radius: 4px;
+
+       text-align: center;
+
+       box-shadow: 10px 10px 25px #826D62;
+
+       margin-bottom: 40px;
+
+}
+
+ 
+
+             .logoscm li {
+
+                    display: inline;
+
+                    padding: 30px;
+
+}
+
+             .logoscm i {
+
+                    font-size: 54px;
+
+                    color: #022B3A;
+
+}
+
+             .logoscm i:hover {
+
+                    color: white;
+
+}
